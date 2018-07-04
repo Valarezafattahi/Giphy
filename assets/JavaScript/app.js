@@ -8,7 +8,7 @@
 // variables:
 var apiKey = "zfluSwDcxvo0mZ1fkUB75SS1cgXGyoet";
 var queryURL;
-var btnList = ["animals", "sports", "dogs", "movies", "cars"];
+var btnList = ["animals", "sports", "dogs", "movies", "cars", "world cup"];
 var searchTerm;
 
 // Functions:
@@ -40,7 +40,7 @@ function renderBtns() {
 
     for (var i = 0; i < btnList.length; i++) {
         $("<button>")
-            .addClass("gif_button")
+            .addClass("gif_button btn btn-outline-dark")
             .attr("data-term", btnList[i])
             .append(btnList[i])
             .appendTo("#btnWindow")
