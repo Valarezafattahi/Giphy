@@ -8,7 +8,7 @@
 // variables:
 var apiKey = "zfluSwDcxvo0mZ1fkUB75SS1cgXGyoet";
 var queryURL;
-var btnList = ["animals", "sports", "dogs", "movies", "cars", "world cup"];
+var btnList = ["animals", "sports", "dogs", "movies", "cars", "world cup", "fitness"];
 var searchTerm;
 
 // Functions:

@@ -7,3 +7,22 @@ p {
     font-family: 'Bangers', cursive;
     font-size: 2.5em;
 }
+
+footer {
+    color: whitesmoke;
+    background-color: #563d7c;
+    border: solid 1px black;
+}
+
+#gifAdd {
+    background-color: #563d7c;
+    border-color:black;
+}
+
+#btnClearBtn {
+    border-color: black;
+}
+
+#gifsClearBtn {
+    border-color: black;
+}
