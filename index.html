@@ -17,33 +17,35 @@
 </head>
 
 <body>
-    <div id="instruction">
-        <p class="text-center">Search for new Gifs
-            <br>Then push the button to generate Gifs and click on them to make'em play / stop!</p>
-    </div>
-    <hr>
-    <div id="searchContainer">
-        <p class="text-center">here you can Search for new Gifs</p>
-        <div class="row justify-content-md-center">
-            <input type="text" id="gifInput">
-            <button id="gifAdd" class="btn btn-primary btn-sm" type="submit">Add your Gif</button>
+    <div class="container">
+        <div id="instruction">
+            <p class="text-center">Search for new Gifs
+                <br>Then push the button to generate Gifs and click on them to make'em play / stop!</p>
         </div>
-    </div>
-    <hr>
-    <div id="btnContainer">
-        <p class="text-center">click to populate gifs</p>
-        <div class="row justify-content-md-center">
-            <button class="btn btn-danger" id="btnClearBtn">Clear your Buttons</button>
+        <hr>
+        <div id="searchContainer">
+            <p class="text-center">here you can Search for new Gifs</p>
+            <div class="row justify-content-md-center">
+                <input type="text" id="gifInput">
+                <button id="gifAdd" class="btn btn-primary btn-sm" type="submit">Add your Gif</button>
+            </div>
         </div>
-        <div id="btnWindow" class="row justify-content-md-center"></div>
-    </div>
-    <hr>
-    <div id="gifsContainer">
-        <p class="text-center">Gifs</p>
-        <div id="gifsClear" class="row justify-content-md-center">
-            <button class="btn btn-danger" id="gifsClearBtn">Clear gifs</button>
+        <hr>
+        <div id="btnContainer">
+            <p class="text-center">click to populate gifs</p>
+            <div class="row justify-content-md-center">
+                <button class="btn btn-danger" id="btnClearBtn">Clear your Buttons</button>
+            </div>
+            <div id="btnWindow" class="row justify-content-md-center mt-2"></div>
         </div>
-        <div class="row justify-content-md-center" id="gifsWindow"></div>
+        <hr>
+        <div id="gifsContainer">
+            <p class="text-center">Gifs</p>
+            <div id="gifsClear" class="row justify-content-md-center">
+                <button class="btn btn-danger" id="gifsClearBtn">Clear gifs</button>
+            </div>
+            <div class="row justify-content-md-center" id="gifsWindow"></div>
+        </div>
     </div>
 
     <footer>
